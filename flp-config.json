@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "Year Holidays",
+        "description": "Check the selected country holidays on informed year",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#holidays-Display",
+        "navigationComponentName": "ovly.holidays",
+        "intentSemanticObject": "holidays",
+        "intentAction": "Display",
+        "html5ApplicationName": "holidays",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "cbf04059-495b-4477-b73c-07c3612769c9"
+        ],
+        "contentPackages": [
+            "985cff4f-6948-43a0-a233-b932d1073255"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Year Holidays",
+        "subtitle": "Check the selected country holidays on informed year",
+        "searchKeywords": "Year Holidays,Check the selected country holidays on informed year",
+        "displayIconUrl": "sap-icon://date-time",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

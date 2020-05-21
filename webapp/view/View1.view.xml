@@ -1,0 +1,29 @@
+<mvc:View controllerName="ovly.holidays.controller.View1" xmlns:layout="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns:commons="sap.suite.ui.commons" xmlns:core="sap.ui.core" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<layout:SimpleForm layout="ResponsiveGridLayout" adjustLabelSpan="true" editable="true" labelSpanL="3" labelSpanM="3" emptySpanL="3" emptySpanM="3">
+						<layout:content>
+							<Label text="Country" />
+							<Select forceSelection="false" items="{/}" id="country-select">
+								<items>
+									<core:ListItem key="{id}" text="{name}" />
+								</items>
+							</Select>
+							<Label text="Year" />
+							<DatePicker placeholder="Year" id="date-picker" displayFormat="yyyy" />
+							<Label/>
+							<Button text="Search" press="onSearchPress" />
+						</layout:content>
+					</layout:SimpleForm>
+					<commons:Timeline showHeaderBar="false" id="timeline" alignment="Left">
+						<commons:content>
+							
+						</commons:content>
+					</commons:Timeline>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
